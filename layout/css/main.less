@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+.nav {
+    width: 100%;
+    height: 50px;
+    /*background-color: rgb(187, 195, 31);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    top: 0;*/
+    border-bottom: 1px solid rgb(232, 232, 232);
+    /*img {
+        width: 5vw;
+        height: 2vh;
+    }*/
+    .nav-item-left {
+        width: 29vw;
+        float: left;
+        display: flex;
+        .nav-item {
+            flex: 1;
+            text-align: center;
+            line-height: 50px;
+        }
+    } 
+    .nav-item-right {
+        float: right;
+        width: 68vw;
+        display: flex; 
+        .nav-item {
+            flex: 1;
+            text-align: center;
+            line-height: 50px;
+        }
+    }
+}
+.main {
+    width: 90vw;
+    height: 100vh;
+    /*background-color: aquamarine;*/
+    display: flex;
+    margin: 0 auto;
+    .main-left {
+        width: 70vw;
+        /*background-color: rgb(198, 54, 54);*/
+        float: left;
+        .top {
+            width: 70vw;
+            height: 60vh;
+            margin-top: 5vh;
+            img {
+                width: 2vw;
+                height: 2vh;
+            }
+            .new {
+                width: 46vw;
+                float: left;
+                border-right: 1px solid rgb(219, 215, 215);
+            }
+            .hot {
+                width: 23vw;
+                float: right;
+            }
+        }
+        .bottom {
+            margin-top: 10vh;
+            .bottom-nav {
+                /*background-color: yellow;*/
+                width: 70vw;
+                height: 45vh;
+                line-height: 45vh;
+                color: rgb(155, 162, 160);
+                .bottom-nav-left {
+                    /*background-color: rgb(58, 21, 21);*/
+                    float: left;
+                    width: 32vw;
+                    display: flex;
+                    .item {
+                        flex: 1;
+                    }
+                }
+                .bottom-nav-right {
+                /*background-color: rgb(190, 66, 66);*/
+                    float: right;
+                    width: 32vw;
+                    
+                    div {
+                        text-align: right;
+                    }
+                
+                }
+            }
+        }
+    }
+    .main-right {
+        flex: 1;
+        float: right;
+        border: 1px solid rgb(228, 227, 227);
+        margin: 1vh 1vw;
+    }
+}
